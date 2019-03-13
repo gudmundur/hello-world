@@ -16,5 +16,5 @@ action "run standard" {
 
 action "filter clean trees" {
   needs = "run standard"
-  uses = ".github/filter-clean-trees"
+  uses = "./.github/filter-clean-trees"
 }
