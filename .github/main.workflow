@@ -11,5 +11,5 @@ action "yarn install" {
 action "run standard" {
   needs = "yarn install"
   uses = "nuxt/actions-yarn@master"
-  args = "run standard"
+  args = "run standard --fix"
 }
