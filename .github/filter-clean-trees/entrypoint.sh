@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 if [[ $(git diff --stat) != '' ]]; then
   exit 0
